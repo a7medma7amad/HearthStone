@@ -1,0 +1,23 @@
+note:"run the game from (GameController) class in the (Controller) package"
+
+Game Instructions:
+
+1 - To start the game , select Hero 1 & Hero 2 , then press next. 
+2-The lower half is fixed for the current hero.
+3-The screen is divided vertically into three parts ,the lower part is current player`s Hand,the middle part is current player`s fields,
+	the upper part is opponent`s field.
+4-The right part contains the information of current hero in the lower half and and opponents hero in upper half ,
+	 there is information about remaining cards in each hero`s deck ,
+	number of cards in opponents hand,and the information of the last burned card which is updated everytime a card is burned ,
+	and buttons to use current heropower and end current player`s turn.
+5-The hero buttons are the buttons with green background where current hero`s button is on lwer right corner while opponent`s button is on upper right corner.
+6-For current player to play a minion click on the minion he wants from his hand,where he must have enough mana crystals to play this minion.
+7- In order for current player to attack with a minion , First click on the minion you want to attack with from current field 
+	Then click on The Minion  you want to be attacked From  opponent’s field or click on opponent`s button to attack opponent`s hero. 
+8- If you want to cast a AoeSpell or FieldSpell click on it from current hand and it will be casted immediatly if you have enough mana crystals. 
+9-if you want to cast a spell MinonTargetSpell,LeechingSpell,HeroTargetSpell first click on the spell from current hand ,
+ then click on the minion or hero you want to cast it on from either fields or from either hero buttons. 
+10- To use the power of the current hero , Press UseCurrentHeroPower ,if the current hero is mage or priest 
+	then after you click use current hero power click on the target minion or hero,
+ 	if the hero is Hunter,Warlock or paladin then the hero power will be used immediatly after you click useCurrenheroPower. 
+11- To end current player`s turn , Press EndCurrentHeroTurn to exchange the turn with your opponent.
